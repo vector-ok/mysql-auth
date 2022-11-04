@@ -6,7 +6,7 @@ const passport = require('passport');
 const Helper = require('../utils/helper');
 require('../config/passport')(passport);
 
-const helper = Helper();
+const helper = new Helper();
 
 // create new Role
 router.post(

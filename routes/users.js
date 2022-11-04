@@ -52,7 +52,7 @@ router.post(
 // get list of users
 router.get(
   '/',
-  password.authenticate('jwt', {
+  passport.authenticate('jwt', {
     session: false,
   }),
   function (re, res) {
