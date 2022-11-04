@@ -6,3 +6,4 @@
 4. Add and configure Passport.js
 5. Add Permissions checker
 6. Create CRUD operations and Routers
+7. Create routers for authentication
