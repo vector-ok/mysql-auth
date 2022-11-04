@@ -7,3 +7,4 @@
 5. Add Permissions checker
 6. Create CRUD operations and Routers
 7. Create routers for authentication
+8. Register the routers to App.js
