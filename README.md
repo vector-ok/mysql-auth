@@ -5,3 +5,4 @@
 3. Create Database and confirm tables
 4. Add and configure Passport.js
 5. Add Permissions checker
+6. Create CRUD operations and Routers
