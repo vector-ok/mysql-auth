@@ -9,12 +9,22 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Group.hasMany(models.User, {
+        foreignKey: 'group_id',
+        as: 'users',
+      });
     }
   }
   Group.init(
     {
-      group_name: DataTypes.STRING,
-      group_description: DataTypes.STRING,
+      group_name: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      group_description: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
     },
     {
       sequelize,

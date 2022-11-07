@@ -20,7 +20,7 @@ class Helper {
           });
         })
         .then((rolePermission) => {
-          if (rolePermision) {
+          if (rolePermission) {
             resolve(rolePermission);
           } else {
             reject({ message: 'Access Denied!' });
